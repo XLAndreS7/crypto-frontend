@@ -15,9 +15,9 @@ export default function SearchBar({ onAdd }) {
     }
 
     try {
-      // Tu backend devuelve un ARRAY (como el que pegaste)
+      
       const res = await API.get(`/quotes/search?q=${encodeURIComponent(value)}`);
-      // res.data === [ { id, name, symbol, ... }, ... ]
+      
       setResults(Array.isArray(res.data) ? res.data : []);
       
     } catch (err) {

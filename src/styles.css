@@ -62,7 +62,7 @@ body {
   margin: 6px 0;
 }
 
-/* Botón pequeño al lado del resultado */
+
 .add-btn-min {
   margin-left: 10px;
   padding: 2px 10px;
@@ -76,7 +76,7 @@ body {
 
 .app-title {
   text-align: center;
-  font-size: 44px;     /* opcional: ajusta a tu gusto */
+  font-size: 44px;     
   font-weight: 800;
-  margin: 24px 0 12px; /* separaciones agradables */
+  margin: 24px 0 12px; 
 }
